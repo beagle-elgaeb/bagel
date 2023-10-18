@@ -31,7 +31,6 @@ ReactDOM.render(
         <App>
           <AppRoutes />
         </App>
-        
       </HashRouter>
     </Provider>
   </QueryClientProvider>,

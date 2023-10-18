@@ -1,11 +1,9 @@
 import { FC } from "react";
 import { Item, LoaderContainer, LoaderOverlay } from "./Loader.styles";
 
-const Loader: FC<PropsType> = (props) => {
-  const { over = false } = props;
-
+const Loader: FC = () => {
   return (
-    <LoaderOverlay over={over}>
+    <LoaderOverlay>
       <LoaderContainer>
         <Item />
       </LoaderContainer>
@@ -14,7 +12,3 @@ const Loader: FC<PropsType> = (props) => {
 };
 
 export default Loader;
-
-type PropsType = {
-  over?: boolean;
-};

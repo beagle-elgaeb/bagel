@@ -11,7 +11,7 @@ export const LoaderOverlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${colors.primaryActiveElementOpacity};
+  background: ${colors.blueOpacity};
   border-radius: 18px 18px 0 0;
   backdrop-filter: blur(2px);
   opacity: 0.5;
@@ -29,6 +29,6 @@ export const LoaderContainer = styled.div`
 export const Item = styled(CircularProgress)`
   height: 100%;
   animation-duration: 5s;
-  color: ${colors.primaryDefaultDark};
+  color: ${colors.blueDark};
   z-index: 999;
 `;

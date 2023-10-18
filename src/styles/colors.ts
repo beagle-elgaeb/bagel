@@ -12,6 +12,9 @@ export const colors = {
   lightBlue: "#118DFF",
   darkBlue: "#0E4CD3",
   darkBlueOpacity: "#0E4CD3CC", // CC - это 0.8 в RGBA
+
+  blueDark: "#1473F2",
+  blueOpacity: "#E0F2FFCC", // CC - это 0.8 в RGBA
 };
 
 export const shadow = `0 0 2px ${colors.blackOpacity}, 0 2px 24px ${colors.blackOpacity}`;
